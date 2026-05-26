@@ -1,0 +1,40 @@
+# Compiled object files
+*.o
+*.obj
+*.out
+*.exe
+
+# Executables
+*.a
+*.so
+*.dylib
+*.dll
+
+# Debug files
+*.dSYM/
+*.su
+*.gch
+*.pch
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Build directories
+build/
+Debug/
+Release/
+cmake-build-debug/
+cmake-build-release/
+
+# CMake
+CMakeUserPresets.json
+CMakeFiles/
+
+# Temporary files
+*.tmp
+*.log
