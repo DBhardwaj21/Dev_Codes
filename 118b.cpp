@@ -10,9 +10,9 @@ int main(){
     
     
     for(int row=-n ; row<=n; row++){
-        int top=n-abs(-n);
+        int top=n-abs(row);
         for(int i=0;i<abs(row);i++){
-            cout<<" ";
+            cout<<"  ";
         }
         for(int i=0;i<top;i++){
             cout<<i<<" ";
@@ -20,7 +20,7 @@ int main(){
         for(int i=top;i>0;i--){
             cout<<i<<" ";
         }
-        cout<<endl;
+        cout<<0<<endl;
         
     }
 
